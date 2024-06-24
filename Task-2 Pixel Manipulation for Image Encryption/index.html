@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Encryption Decryption</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Image Encryption Decryption</h1>
+        </header>
+        <section class="controls">
+            <label for="imageInput" class="file-label">Choose Image</label>
+            <input type="file" id="imageInput" accept="image/*">
+            <button onclick="encryptImage()">Encrypt</button>
+            <button onclick="decryptImage()">Decrypt</button>
+            <button onclick="resetImage()">Reset</button>
+            <button onclick="saveImage()">Save Image</button>
+        </section>
+        <section class="images">
+            <div class="image-container">
+                <h2>Original Image</h2>
+                <canvas id="originalCanvas"></canvas>
+            </div>
+            <div class="image-container">
+                <h2>Encrypted/Decrypted Image</h2>
+                <canvas id="processedCanvas"></canvas>
+            </div>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
