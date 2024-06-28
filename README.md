@@ -42,7 +42,7 @@ This is a simple image encryption tool that encrypts and decrypts images using b
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/yourusername/image-encryption-tool.git
+    git clone https://github.com/gowthamsai117/image-encryption-tool.git
     cd image-encryption-tool
     ```
 
@@ -95,7 +95,7 @@ The Password Strength Checker is a tool that assesses the strength of a password
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/password-strength-checker.git
+    git clone https://github.com/gowthamsai117/password-strength-checker.git
     cd password-strength-checker
     ```
 
@@ -145,7 +145,7 @@ This keylogger program records and logs keystrokes on a system. It captures keys
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/keylogger-tool.git
+    git clone https://github.com/gowthamsai117/keylogger-tool.git
     cd keylogger-tool
     ```
 
@@ -190,7 +190,7 @@ The Packet Sniffer Tool is designed for educational purposes to capture and anal
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/packet-sniffer-tool.git
+    git clone https://github.com/gowthamsai117/packet-sniffer-tool.git
     cd packet-sniffer-tool
     ```
 
@@ -210,6 +210,7 @@ The Packet Sniffer Tool is designed for educational purposes to capture and anal
 If `scapy` is not included in the `requirements.txt` file, install it manually:
 ```bash
 pip install scapy
+```
 
 
 
